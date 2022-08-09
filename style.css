@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.comteiner{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    height: 60vh;
+}
+.box{
+    display: flex;
+    background-color:azure;
+    width: 19.8083vw;
+    height: 20vh;
+    font-size: 10vh;
+    text-align: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+.btn{
+display: flex;
+margin: 20px;
+justify-content: center;
+}
+.newGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
